@@ -8,13 +8,15 @@ body {
   font-family: "Rubik", sans-serif;
 }
 .wrapper {
-  width: 60 vmin;
-  padding: 50px 40px;
+  width: 85%;
+  padding: 50px 25px;
   background-color: #15161a;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
+  /* position: absolute;
+  transform: translate(-50%, -50%); */
+  /* top: 50%;
+  left: 50%; */
+  margin:auto;
+  margin-top: 20vh;
   border-radius: 5px;
   box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.6);
 }
