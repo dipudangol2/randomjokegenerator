@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dipusoftnep/public_html/randomjokegenerator/
+    - /bin/cp -R index.html *.css *.js $DEPLOYPATH 
