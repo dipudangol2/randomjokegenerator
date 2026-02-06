@@ -1,6 +1,6 @@
 const jokeContainer = document.getElementById("jokeContent");
 const btn = document.getElementById("btn");
-const url = "https://v2.jokeapi.dev/joke/Any?type=single";
+const url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,racist,sexist,explicit";
 
 let getJoke = () => {
     jokeContainer.classList.remove("fade");
