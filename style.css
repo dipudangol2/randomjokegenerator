@@ -1,54 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
-  background-color: #fab22e;
-  font-family: "Rubik", sans-serif;
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 .wrapper {
-  width: 85%;
-  padding: 50px 25px;
-  background-color: #15161a;
-  /* position: absolute;
+    width: 60%;
+    max-width: 80vw;
+    padding: 50px 25px;
+    background: rgba(15, 15, 15, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    /* position: absolute;
   transform: translate(-50%, -50%); */
-  /* top: 50%;
+    /* top: 50%;
   left: 50%; */
-  margin:auto;
-  margin-top: 20vh;
-  border-radius: 5px;
-  box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.6);
+    margin: auto;
+    margin-top: 20vh;
+    border-radius: 25px;
+    box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.6);
 }
 span {
-  display: block;
-  text-align: center;
-  font-size: 100px;
+    display: block;
+    text-align: center;
+    font-size: 100px;
 }
 p {
-  font-size: 1 rem;
-  color: #fff;
-  font-weight: 400;
-  text-align: center;
-  word-wrap: break-word;
-  line-height: 2rem;
-  margin: 30px 0;
-  opacity: 0;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 2rem;
+    margin: 30px 0;
+    opacity: 0;
 }
 button {
-  display: block;
-  background-color: #fab22e;
-  border: none;
-  padding: 5px;
-  font-size: 1.1 rem;
-  color: #000;
-  font-weight: 600;
-  padding: 12px 25px;
-  margin: 0 auto;
-  border-radius: 8px;
-  cursor: pointer;
+    display: block;
+    background-color: #fab22e;
+    border: none;
+    padding: 5px;
+    font-size: 1.1 rem;
+    color: #000;
+    font-weight: 600;
+    padding: 12px 25px;
+    margin: 0 auto;
+    border-radius: 8px;
+    cursor: pointer;
 }
-.fade{
+.fade {
     opacity: 1;
-    transition:opacity 1.5s;
+    transition: opacity 1.5s;
 }
